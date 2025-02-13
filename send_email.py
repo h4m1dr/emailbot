@@ -5,14 +5,14 @@ from email.mime.multipart import MIMEMultipart
 
 # List of emails
 email_list = [
-     "hamidrn976@gmail.com",
-     "hr.tams66@gmail.com",
+     "email1",
+     "email2",
     # Add more emails
 ]
 
 # Email settings
-sender_email = "thatams66@gmail.com"  # Your Gmail address
-password = "Am26905664*"  # Your App Password
+sender_email = "email"  # Your Gmail address
+password = "pass"  # Your App Password
 
 # Function to send email
 def send_email(receiver_email, body):
